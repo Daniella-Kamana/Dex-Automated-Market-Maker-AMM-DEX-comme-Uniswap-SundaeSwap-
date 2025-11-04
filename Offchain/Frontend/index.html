@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DEX AMM - Accueil</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">🌟 DEX AMM</div>
+
+    <nav class="nav" id="navMenu">
+      <ul class="nav-links">
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">Échanger</a></li>
+        <li><a href="#">Pool de liquidité</a></li>
+        <li><a href="#">Farming / Staking</a></li>
+        <li><a href="#">Gouvernance</a></li>
+        <li><a href="#">Statistiques</a></li>
+        <li><a href="#">Docs / À propos</a></li>
+      </ul>
+    </nav>
+
+    <div class="actions">
+      <button class="lang">🌍 FR</button>
+      <button class="mode" id="toggleMode">🌙</button>
+      <button class="wallet">Connecter</button>
+      <button class="burger" id="burgerBtn">☰</button>
+    </div>
+  </header>
+
+  <!-- Hero section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Échangez vos tokens en toute liberté — rapide, sûr et sans intermédiaire.</h1>
+      <p>Notre DEX décentralisé propulsé par un AMM sur la blockchain Cardano.</p>
+      <div class="hero-buttons">
+        <button class="btn-primary">Échanger maintenant</button>
+        <button class="btn-secondary">Fournir de la liquidité</button>
+      </div>
+    </div>
+    <div class="hero-img">
+      <img src="cardano-ada-logo.png" alt="Cardano logo">
+    </div>
+  </section>
+
+  <!-- Pourquoi section -->
+  <section class="features">
+    <h2>Pourquoi notre DEX ?</h2>
+    <div class="feature-grid">
+      <div class="feature">
+        <span>⚡</span>
+        <h3>Échanges instantanés</h3>
+        <p>Transactions rapides avec frais minimaux</p>
+      </div>
+      <div class="feature">
+        <span>🔒</span>
+        <h3>Sécurité blockchain</h3>
+        <p>Contrats intelligents vérifiés et transparents</p>
+      </div>
+      <div class="feature">
+        <span>💧</span>
+        <h3>Liquidité partagée</h3>
+        <p>AMM optimisé pour de faibles slippages</p>
+      </div>
+      <div class="feature">
+        <span>🎁</span>
+        <h3>Récompenses</h3>
+        <p>Gagnez des tokens en fournissant de la liquidité</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pools -->
+  <section class="pools">
+    <h2>Pools de liquidité en vedette</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Pool</th>
+          <th>Volume 24h</th>
+          <th>APR</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>ADA / USDT</td>
+          <td>$1,230,000</td>
+          <td>12.4%</td>
+          <td><button class="btn-secondary">Fournir</button></td>
+        </tr>
+        <tr>
+          <td>ADA / WBTC</td>
+          <td>$640,000</td>
+          <td>9.7%</td>
+          <td><button class="btn-secondary">Fournir</button></td>
+        </tr>
+        <tr>
+          <td>DEX / ADA</td>
+          <td>$460,000</td>
+          <td>15.2%</td>
+          <td><button class="btn-secondary">Fournir</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Stats -->
+  <section class="stats">
+    <h2>Statistiques globales</h2>
+    <div class="stats-grid">
+      <div><h3>$52.3M</h3><p>Total Value Locked</p></div>
+      <div><h3>$4.7M</h3><p>Volume 24h</p></div>
+      <div><h3>8,302</h3><p>Fournisseurs de liquidité</p></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="#">Documentation</a> |
+      <a href="#">Github</a> |
+      <a href="#">Support</a> |
+      <a href="#">Politique</a>
+    </div>
+    <p>© 2025 DEX AMM - Cardano Edition</p>
+  </footer>
+</body>
+</html>
